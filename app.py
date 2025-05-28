@@ -18,7 +18,7 @@ st.sidebar.title("Filtros")
 area_filtro = st.sidebar.selectbox("Selecciona el área", options=['Todas', 'Urgencias', 'Consulta Externa', 'Laboratorio', 'Farmacia', 'Imagenología'])
 gravedad_filtro = st.sidebar.selectbox("Nivel de gravedad", options=['Todas', 'Alta', 'Media', 'Baja'])
 
-with open("CV_Javier_Perez.pdf", "rb") as file:
+with open("CV_Javier HPR.pdf", "rb") as file:
     st.sidebar.download_button(
         label="Descargar CV",
         data=file,
